@@ -1,0 +1,20 @@
+body {
+    /* background-color: black;
+    color: white; */
+}
+
+.left {
+    width: 25vw;
+}
+
+.right {
+    width: 75vw;
+}
+
+.home ul li {
+   display: flex;
+   align-items: center;
+   gap: 15px; 
+    width: 14px;
+    list-style: none;
+} 
