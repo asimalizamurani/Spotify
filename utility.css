@@ -39,3 +39,24 @@
 .p-1 {
     padding: 10px;
 }
+
+/* For WebKit browsers (Chrome, Safari) */
+/* Modify these styles to fit your design preferences */
+
+/* Dark background for the track */
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #1a1a1a; /* Adjust background color as needed */
+}
+
+/* Dark color for the scrollbar handle/thumb */
+::-webkit-scrollbar-thumb {
+    background-color: #333; /* Adjust thumb color as needed */
+    border-radius: 6px;
+}
+
+/* Dark background for the scrollbar track */
+::-webkit-scrollbar-track {
+    background-color: #1a1a1a; /* Adjust track color as needed */
+}
+
